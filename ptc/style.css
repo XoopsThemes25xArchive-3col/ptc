@@ -1,0 +1,155 @@
+BODY, FONT, SPAN, TD, P, INPUT, TEXTAREA, SELECT {FONT: normal 12px/120% Verdana, Arial, Helvetica, sans-serif;}
+BODY {background-image: url(images/pageback.jpg); margin: 0px; padding:0px;}
+a:link{ color: #000000; text-decoration: none; font-size: 10px; }
+a:active{ color: #000000; text-decoration: none; font-size: 10px; }
+a:visited{ color: #000000; text-decoration: none; font-size: 10px; }
+a:hover{ color: #2069A0; text-decoration: underline overline; font-size: 10px; }
+FORM{FONT-SIZE: 11px; FONT-FAMILY: Verdana}
+img {border:0px;}
+h1, h2, h3 { font-size:12px; font-weight:bold; color:#000;}
+
+.boxtop {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight:bold; background-color: #F8F8F8; background-image: url(images/topicbar.jpg); border: 1px solid #D9D9D9; padding-left:5px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; color: #FFFFFF;}
+
+.boxtest {	background-color: #F8f8f8; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;	border-top-style: none; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: #999999; border-right-color: #999999; border-bottom-color: #999999; border-left-color: #999999;}
+
+.mainleft {background-image: url(images/leftside.jpg); border: 1px solid #D9D9D9;}
+.mainright {background-image: url(images/rightside.jpg); border: 1px solid #D9D9D9;}
+.headerback {background-image: url(images/headerback.jpg);}
+.boxbody {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; background-color: #F8F8F8; border: 1px solid #D9D9D9; padding:3px 5px 3px 5px;}
+.navback {background-image: url(images/topbar.jpg); border: 1px solid #D9D9D9; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000; font-weight: bold;}
+.centerboxbody {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; background-color: #eeeeee; border: 1px solid #D9D9D9; padding: 5px;}
+.mainarea {background-image: url(images/mainback2.jpg);}
+
+/* Code and Quote Definition */
+div.xoopsCode { font-size: 11px; color: #006600; background-color: #FAFAFA; border: #c2cdd6 1px dashed;}
+div.xoopsQuote { font-size: 11px; color: #444444; line-height: 125%; text-align: justify; background-color: #FAFAFA; border: #c2cdd6 1px dashed;}
+
+/* Links for Quotes */
+div.xoopsQuote a:link, div.xoopsQuote a:visited { color: #444444; font-weight: bold; background-color: transparent;}
+div.xoopsQuote a:hover, div.xoopsQuote a:active { color: #1778cb; background-color: transparent;}
+
+/* General small */
+.fontSmall { font-size : 10px; background-color: transparent;}
+a.fontSmall { color: #006699;}
+a.fontSmall:hover { color: #C23030; text-decoration: underline;}
+
+/*forms elements*/
+input,textarea,select {border: 1px solid #CCCCCC; font-size: 11px; font-family: Arial, Helvetica, sans-serif; background-color: #FFFFFF;}
+
+input:focus, textarea:focus, select:focus{border: 1px solid #999999;}
+
+input.formButton{background-color: #1E90FF; color: #FFFFFF; font-weight: bold; border-top: 1px solid #55ACFF; border-left: 1px solid #55ACFF; border-right: 1px solid #0068CC; border-bottom: 1px solid #0068CC;}
+
+.outer {border: 0; width: 100%;}
+.head {background-color: #EBEBEB; padding: 5px; font-weight: bold;}
+.even {background-color: #FFFFFF; padding: 5px;  border-bottom: 1px solid #CCCCCC; }
+.odd {background-color: #EFEFEF; padding: 5px; border-bottom: 1px solid #CCCCCC; }
+.foot {background-color: #E1E7EF; padding: 5px; font-weight: bold;}
+tr.head td {background-color: #738ABE; padding: 5px; font-weight: bold;}
+tr.even td {background-color: #FFFFFF; padding: 5px; border-bottom: 1px solid #CCCCCC;}
+tr.odd td {background-color: #EFEFEF; padding: 5px; border-bottom: 1px solid #CCCCCC; }
+tr.foot td {background-color: #E1E7EF; padding: 5px; font-weight: bold;}
+
+.item {border: 0px solid #cccccc; width: 100%;}
+.itemHead {padding: 3px 3px 0 3px; background-color:#738ABE; color: #738ABE;}
+.itemInfo {text-align: left; padding: 0 3px 3px 3px; background-color: #738ABE; border-bottom: 2px solid #CCCCCC; color: #666666}
+.itemTitle a {font-size: 150%; font-weight: bold; font-variant: small-caps; color: #FF4500; background-color: #738ABE;}
+.itemPoster {font-size: 90%; font-style:italic;}
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {padding-left: 5px; font-size: 12px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; background-color: #efefef}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+#leftcolumn{
+	width: 170px;
+	border: 0;
+	vertical-align: top;
+	padding: 0;
+}
+.blockTitle{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	background-color: #F8F8F8;
+	background-image: url(images/topicbar.jpg);
+	border: 1px solid #D9D9D9;
+	padding-left:5px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	color: #FFFFFF;
+}
+
+.blockContent{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #F8F8F8;
+	border: 1px solid #D9D9D9;
+	padding:3px 5px 3px 5px;
+}
+
+#centercolumn{
+	padding: 4px;
+	vertical-align: top;
+}
+#rightcolumn{
+	width: 170px;
+	border: 0;
+	vertical-align: top;
+	padding: 0;
+}
+.mainmenu a{
+	display: block;
+	width: 149px;
+	*width: 140px;
+	padding: 2px 2px 2px 18px;
+	border: 1px solid #FFFFFF;
+	font-size: 12px;
+	border-bottom: 1px solid #ebebeb;
+	color: #FF4500;
+}
+.mainmenu a:hover{
+	color: #1E90FF;
+	border: 1px solid #FFD700;
+	background-color: #FFF9D4;
+	text-decoration: none;
+}
+.submenu{
+	padding-left: 10px;
+}
+.submenu a{
+	display: block;
+	width: 139px;
+	*width: 130px;
+	padding: 2px 2px 2px 18px;
+	border: 1px solid #FFFFFF;
+	font-size: 11px;
+	border-bottom: 1px solid #ebebeb;
+	color: #82AD2B;
+}
+#bottomLcolumn{
+	padding: 3px;
+	vertical-align: top;
+}
+#bottomRcolumn{
+	padding: 3px;
+	vertical-align: top;
+}
+#bottomCcolumn{
+	padding: 3px;
+}
+#centerCcolumn{
+	padding: 3px;
+}
+#centerLcolumn{
+	padding: 3px;
+	vertical-align: top;
+}
+#centerRcolumn{
+	padding: 3px;
+	vertical-align: top;
+}
